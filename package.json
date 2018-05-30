@@ -1,0 +1,24 @@
+{
+  "name": "uybinh-palindrome",
+  "version": "0.1.0",
+  "description": "Palindrom detector",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uybinh/learn_enough_palindrome.git"
+  },
+  "keywords": [
+    "palindrome",
+    "learn-enough",
+    "javascript"
+  ],
+  "author": "Uy Binh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uybinh/learn_enough_palindrome/issues"
+  },
+  "homepage": "https://github.com/uybinh/learn_enough_palindrome#readme"
+}

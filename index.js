@@ -1,3 +1,5 @@
+module.exports = Phrase;
+
 // Reverses a string.
 String.prototype.reverse = function(){
   return Array.from(this).reverse().join("");
@@ -19,8 +21,4 @@ function Phrase(content) {
     return this.processedContent() === this.processedContent().reverse();
   }
 
-}
-
-String.prototype.blank = function(){
-  return !!(this.match(/^\s*$/));
 }
