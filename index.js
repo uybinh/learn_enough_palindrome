@@ -8,12 +8,12 @@ String.prototype.reverse = function(){
 function Phrase(content) {
   this.content = content;
 
-  this.processor = function(string) {
-    return string.toLowerCase();
+  this.processedContent = function() {
+    return this.letters().toLowerCase();
   }
 
-  this.processedContent = function() {
-    return this.processor(this.content);
+  this.letters = function(){
+    return this.content.split(/[^a-zA-Z]/).join("");
   }
 
   // Returns true if the phrase is a palindrome, false otherwise.
