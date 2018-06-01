@@ -23,6 +23,11 @@ describe("Phrase", function(){
       let palindoromeWithPunctualtion = new Phrase("Ra-ce,Ca!r");
       assert(palindoromeWithPunctualtion.palindrome());
     });
+
+    it("shoud return false for a empty string", function(){
+      let emptyPalindrome = new Phrase("");
+      assert(!emptyPalindrome.palindrome());
+    })
   });
 
   describe("#letters", function(){
